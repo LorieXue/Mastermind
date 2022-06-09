@@ -22,7 +22,7 @@ printf("\t4- Quitter\n");
 int saisie_min_max(int min, int max){
 int saisie;
 scanf("%d",&saisie);
-	while ((saisie>max)&&(saisie<min)) {
+	while ((saisie>max)||(saisie<min)) {
 		printf("Non valide, reessayez.\n");
 		scanf("%d",&saisie);
 
